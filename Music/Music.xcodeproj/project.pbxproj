@@ -18,6 +18,11 @@
 		214EB79927C5F4EF00A7A846 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB79827C5F4EF00A7A846 /* HomeViewController.swift */; };
 		214EB79B27C5F4FF00A7A846 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB79A27C5F4FF00A7A846 /* SearchViewController.swift */; };
 		214EB79D27C5F50E00A7A846 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB79C27C5F50E00A7A846 /* LibraryViewController.swift */; };
+		21B9EC1D27C6722B00A40507 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9EC1C27C6722B00A40507 /* AuthManager.swift */; };
+		21B9EC1F27C6775E00A40507 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9EC1E27C6775E00A40507 /* Constant.swift */; };
+		21C0B8E327C7BC0F00997A97 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C0B8E227C7BC0F00997A97 /* WelcomeViewController.swift */; };
+		21C0B8E527C7BC2D00997A97 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C0B8E427C7BC2D00997A97 /* Welcome.storyboard */; };
+		21C1151C27C736D1008F73F6 /* BaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C1151B27C736D1008F73F6 /* BaseWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		214EB79827C5F4EF00A7A846 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		214EB79A27C5F4FF00A7A846 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		214EB79C27C5F50E00A7A846 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		21B9EC1C27C6722B00A40507 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		21B9EC1E27C6775E00A40507 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		21C0B8E227C7BC0F00997A97 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		21C0B8E427C7BC2D00997A97 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		21C1151B27C736D1008F73F6 /* BaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,8 @@
 		214EB78527C5EB6C00A7A846 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				21B9EC1B27C6721500A40507 /* Managers */,
+				21B9EC1E27C6775E00A40507 /* Constant.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -111,6 +123,8 @@
 		214EB78827C5EB8300A7A846 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				21C0B8E027C7BBBB00997A97 /* Welcome */,
+				21C1151A27C7369A008F73F6 /* Web */,
 				214EB79027C5F47A00A7A846 /* Search */,
 				214EB78F27C5F46A00A7A846 /* Library */,
 				214EB78E27C5F46400A7A846 /* Home */,
@@ -152,6 +166,31 @@
 				214EB79A27C5F4FF00A7A846 /* SearchViewController.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		21B9EC1B27C6721500A40507 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				21B9EC1C27C6722B00A40507 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		21C0B8E027C7BBBB00997A97 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				21C0B8E227C7BC0F00997A97 /* WelcomeViewController.swift */,
+				21C0B8E427C7BC2D00997A97 /* Welcome.storyboard */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		21C1151A27C7369A008F73F6 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				21C1151B27C736D1008F73F6 /* BaseWebViewController.swift */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +256,7 @@
 				214EB79527C5F4C500A7A846 /* Library.storyboard in Resources */,
 				214EB77A27C5E80A00A7A846 /* Assets.xcassets in Resources */,
 				214EB79727C5F4CE00A7A846 /* Search.storyboard in Resources */,
+				21C0B8E527C7BC2D00997A97 /* Welcome.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,8 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C1151C27C736D1008F73F6 /* BaseWebViewController.swift in Sources */,
+				21C0B8E327C7BC0F00997A97 /* WelcomeViewController.swift in Sources */,
 				214EB79B27C5F4FF00A7A846 /* SearchViewController.swift in Sources */,
+				21B9EC1D27C6722B00A40507 /* AuthManager.swift in Sources */,
 				214EB78A27C5EE5500A7A846 /* TabBarController.swift in Sources */,
+				21B9EC1F27C6775E00A40507 /* Constant.swift in Sources */,
 				214EB77127C5E80900A7A846 /* AppDelegate.swift in Sources */,
 				214EB77327C5E80900A7A846 /* SceneDelegate.swift in Sources */,
 				214EB79D27C5F50E00A7A846 /* LibraryViewController.swift in Sources */,
