@@ -18,11 +18,22 @@
 		214EB79927C5F4EF00A7A846 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB79827C5F4EF00A7A846 /* HomeViewController.swift */; };
 		214EB79B27C5F4FF00A7A846 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB79A27C5F4FF00A7A846 /* SearchViewController.swift */; };
 		214EB79D27C5F50E00A7A846 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB79C27C5F50E00A7A846 /* LibraryViewController.swift */; };
+		216CECF727CCDC5B00381D7A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CECF627CCDC5B00381D7A /* APIError.swift */; };
+		216CECF927CCDD6C00381D7A /* AppDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CECF827CCDD6C00381D7A /* AppDefault.swift */; };
 		21B9EC1D27C6722B00A40507 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9EC1C27C6722B00A40507 /* AuthManager.swift */; };
 		21B9EC1F27C6775E00A40507 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9EC1E27C6775E00A40507 /* Constant.swift */; };
 		21C0B8E327C7BC0F00997A97 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C0B8E227C7BC0F00997A97 /* WelcomeViewController.swift */; };
 		21C0B8E527C7BC2D00997A97 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C0B8E427C7BC2D00997A97 /* Welcome.storyboard */; };
 		21C1151C27C736D1008F73F6 /* BaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C1151B27C736D1008F73F6 /* BaseWebViewController.swift */; };
+		21C3BAA927D64E9700698909 /* FetchTokenParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3BAA827D64E9700698909 /* FetchTokenParam.swift */; };
+		21C3BAAC27D650EA00698909 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3BAAB27D650EA00698909 /* TokenResponse.swift */; };
+		21C3BAAE27D6532600698909 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3BAAD27D6532600698909 /* APIClient.swift */; };
+		21C3BAB027D6544900698909 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3BAAF27D6544900698909 /* NetworkManager.swift */; };
+		21CE7F3C27CCD3EF00072C99 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE7F3B27CCD3EF00072C99 /* APIConfig.swift */; };
+		21CE7F3E27CCD55000072C99 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE7F3D27CCD55000072C99 /* APIRouter.swift */; };
+		21ECEAA227C88F3000CCC558 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ECEAA127C88F3000CCC558 /* SignInViewController.swift */; };
+		21ECEAA427C88F3C00CCC558 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ECEAA327C88F3C00CCC558 /* SignIn.storyboard */; };
+		F7130D76C3DB4D840AFCA607 /* Pods_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39431D84B9379055E9DD0973 /* Pods_Music.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,11 +50,24 @@
 		214EB79827C5F4EF00A7A846 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		214EB79A27C5F4FF00A7A846 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		214EB79C27C5F50E00A7A846 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		216CECF627CCDC5B00381D7A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		216CECF827CCDD6C00381D7A /* AppDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefault.swift; sourceTree = "<group>"; };
 		21B9EC1C27C6722B00A40507 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		21B9EC1E27C6775E00A40507 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		21C0B8E227C7BC0F00997A97 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		21C0B8E427C7BC2D00997A97 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		21C1151B27C736D1008F73F6 /* BaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewController.swift; sourceTree = "<group>"; };
+		21C3BAA827D64E9700698909 /* FetchTokenParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTokenParam.swift; sourceTree = "<group>"; };
+		21C3BAAB27D650EA00698909 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		21C3BAAD27D6532600698909 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		21C3BAAF27D6544900698909 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		21CE7F3B27CCD3EF00072C99 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		21CE7F3D27CCD55000072C99 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		21ECEAA127C88F3000CCC558 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		21ECEAA327C88F3C00CCC558 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		39431D84B9379055E9DD0973 /* Pods_Music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D0BE68F02337B9CE89EA1F /* Pods-Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.debug.xcconfig"; path = "Target Support Files/Pods-Music/Pods-Music.debug.xcconfig"; sourceTree = "<group>"; };
+		EC81903041672E8446248893 /* Pods-Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.release.xcconfig"; path = "Target Support Files/Pods-Music/Pods-Music.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7130D76C3DB4D840AFCA607 /* Pods_Music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +87,8 @@
 			children = (
 				214EB76F27C5E80900A7A846 /* Music */,
 				214EB76E27C5E80900A7A846 /* Products */,
+				8DE9ACD1FD6ABF41BC1D19C4 /* Pods */,
+				6A27C6C67550903DC8A25520 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +116,9 @@
 		214EB78427C5EB6100A7A846 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				21C3BAAA27D650C800698909 /* Response */,
+				21C3BAA727D64E7300698909 /* Params */,
+				21C3BAA627D64E6600698909 /* Base */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -96,8 +126,9 @@
 		214EB78527C5EB6C00A7A846 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				21B9EC1B27C6721500A40507 /* Managers */,
+				21B9EC1C27C6722B00A40507 /* AuthManager.swift */,
 				21B9EC1E27C6775E00A40507 /* Constant.swift */,
+				216CECF827CCDD6C00381D7A /* AppDefault.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -123,6 +154,7 @@
 		214EB78827C5EB8300A7A846 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				21ECEAA027C88F1B00CCC558 /* SignIn */,
 				21C0B8E027C7BBBB00997A97 /* Welcome */,
 				21C1151A27C7369A008F73F6 /* Web */,
 				214EB79027C5F47A00A7A846 /* Search */,
@@ -168,14 +200,6 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
-		21B9EC1B27C6721500A40507 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				21B9EC1C27C6722B00A40507 /* AuthManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
 		21C0B8E027C7BBBB00997A97 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +217,60 @@
 			path = Web;
 			sourceTree = "<group>";
 		};
+		21C3BAA627D64E6600698909 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				21CE7F3B27CCD3EF00072C99 /* APIConfig.swift */,
+				21CE7F3D27CCD55000072C99 /* APIRouter.swift */,
+				216CECF627CCDC5B00381D7A /* APIError.swift */,
+				21C3BAAD27D6532600698909 /* APIClient.swift */,
+				21C3BAAF27D6544900698909 /* NetworkManager.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		21C3BAA727D64E7300698909 /* Params */ = {
+			isa = PBXGroup;
+			children = (
+				21C3BAA827D64E9700698909 /* FetchTokenParam.swift */,
+			);
+			path = Params;
+			sourceTree = "<group>";
+		};
+		21C3BAAA27D650C800698909 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				21C3BAAB27D650EA00698909 /* TokenResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		21ECEAA027C88F1B00CCC558 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				21ECEAA127C88F3000CCC558 /* SignInViewController.swift */,
+				21ECEAA327C88F3C00CCC558 /* SignIn.storyboard */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		6A27C6C67550903DC8A25520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39431D84B9379055E9DD0973 /* Pods_Music.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DE9ACD1FD6ABF41BC1D19C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0BE68F02337B9CE89EA1F /* Pods-Music.debug.xcconfig */,
+				EC81903041672E8446248893 /* Pods-Music.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 214EB78127C5E80A00A7A846 /* Build configuration list for PBXNativeTarget "Music" */;
 			buildPhases = (
+				A3EFBF5B2FCF22C145B48486 /* [CP] Check Pods Manifest.lock */,
 				214EB76927C5E80900A7A846 /* Sources */,
 				214EB76A27C5E80900A7A846 /* Frameworks */,
 				214EB76B27C5E80900A7A846 /* Resources */,
+				280DCF68BF5A62129295735B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,27 +336,79 @@
 				214EB79527C5F4C500A7A846 /* Library.storyboard in Resources */,
 				214EB77A27C5E80A00A7A846 /* Assets.xcassets in Resources */,
 				214EB79727C5F4CE00A7A846 /* Search.storyboard in Resources */,
+				21ECEAA427C88F3C00CCC558 /* SignIn.storyboard in Resources */,
 				21C0B8E527C7BC2D00997A97 /* Welcome.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		280DCF68BF5A62129295735B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music/Pods-Music-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music/Pods-Music-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Music/Pods-Music-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3EFBF5B2FCF22C145B48486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Music-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		214EB76927C5E80900A7A846 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C3BAB027D6544900698909 /* NetworkManager.swift in Sources */,
+				21ECEAA227C88F3000CCC558 /* SignInViewController.swift in Sources */,
+				216CECF927CCDD6C00381D7A /* AppDefault.swift in Sources */,
 				21C1151C27C736D1008F73F6 /* BaseWebViewController.swift in Sources */,
+				21CE7F3C27CCD3EF00072C99 /* APIConfig.swift in Sources */,
 				21C0B8E327C7BC0F00997A97 /* WelcomeViewController.swift in Sources */,
 				214EB79B27C5F4FF00A7A846 /* SearchViewController.swift in Sources */,
+				21C3BAAC27D650EA00698909 /* TokenResponse.swift in Sources */,
 				21B9EC1D27C6722B00A40507 /* AuthManager.swift in Sources */,
 				214EB78A27C5EE5500A7A846 /* TabBarController.swift in Sources */,
 				21B9EC1F27C6775E00A40507 /* Constant.swift in Sources */,
 				214EB77127C5E80900A7A846 /* AppDelegate.swift in Sources */,
+				21CE7F3E27CCD55000072C99 /* APIRouter.swift in Sources */,
 				214EB77327C5E80900A7A846 /* SceneDelegate.swift in Sources */,
+				21C3BAA927D64E9700698909 /* FetchTokenParam.swift in Sources */,
 				214EB79D27C5F50E00A7A846 /* LibraryViewController.swift in Sources */,
 				214EB79927C5F4EF00A7A846 /* HomeViewController.swift in Sources */,
+				216CECF727CCDC5B00381D7A /* APIError.swift in Sources */,
+				21C3BAAE27D6532600698909 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +544,7 @@
 		};
 		214EB78227C5E80A00A7A846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D0BE68F02337B9CE89EA1F /* Pods-Music.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +573,7 @@
 		};
 		214EB78327C5E80A00A7A846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC81903041672E8446248893 /* Pods-Music.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

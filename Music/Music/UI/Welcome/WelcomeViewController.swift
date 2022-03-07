@@ -19,4 +19,10 @@ class WelcomeViewController: UIViewController {
         self.title = "Spotify"
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func didTapSignInButton(_ sender: UIButton) {
+        let vc = SignInViewController.fromStoryboard()
+        vc.navigationItem.largeTitleDisplayMode = .never
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
